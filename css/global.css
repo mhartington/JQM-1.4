@@ -1,0 +1,462 @@
+.ui-page {
+	-webkit-backface-visibility: hidden;
+	-webkit-touch-callout: none;
+	-webkit-text-size-adjust: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+/***********************************
+
+JQM CONTENT CUSTOMS
+
+***********************************/
+
+.ui-content {
+	top: 0px;
+	bottom: 0px;
+	width: 100%;
+	position:absolute;
+	padding: 0px !important;
+	overflow-y:scroll;
+	-webkit-overflow-scrolling: touch;
+	 -webkit-transform: translateZ(0px);
+
+}
+.has-header {
+	margin-top: 44px;
+}
+
+.has-footer{
+	margin-bottom:53px;
+}
+
+.reset{
+	display:block !important;
+	text-align:center;
+}
+
+/*END CONTENT STYLES*/
+
+/***********************************/
+
+/*JQM FOOTER & HEADER*/
+
+/************************************/
+
+.ui-footer {
+	border: none;
+	border-top: 1px gray solid !important;
+}
+/***********************************
+
+JQM CUSTOMS ICONS
+
+***********************************/
+
+.nav .ui-btn-icon-top:after {
+	width: 36px;
+	height: 36px;
+	border-radius: 100%;
+	margin-left: -18px !important;
+	top: 0px !important;
+	padding-bottom: 0em;
+}
+.nav .ui-btn-icon-top {
+	padding-bottom: 0em;
+	padding-top: 36px;
+	border: none !important;
+	font-size: .9em;
+	font-family: sans-serif !important;
+	text-shadow: none;
+}
+.nav .ui-btn-active {
+	font-weight: 400;
+}
+.ui-icon-360:after {
+	background-image: url(icons/icon.svg);
+	background-position: 0px -36px;
+	background-repeat: no-repeat;
+}
+.ui-icon-usb:after {
+	background-image: url(icons/icon.svg);
+	background-position: -72px -36px;
+	background-repeat: no-repeat;
+}
+.ui-icon-kit:after {
+	background-image: url(icons/icon.svg);
+	background-position: -216px -36px;
+	background-repeat: no-repeat;
+}
+.ui-icon-inout:after {
+	background-image: url(icons/icon.svg);
+	background-position: -108px -36px;
+	background-repeat: no-repeat;
+}
+.ui-icon-button:after {
+	background-image: url(icons/icon.svg);
+	background-position: -36px -36px;
+	background-repeat: no-repeat;
+}
+.ui-icon-burret:after {
+	background-image: url(icons/icon.svg);
+	background-position: -144px -36px;
+	background-repeat: no-repeat;
+}
+.ui-icon-electrode:after {
+	background-image: url(icons/icon.svg);
+	background-position: -180px -36px;
+	background-repeat: no-repeat;
+}
+.ui-icon-video:after {
+	background-image: url(icons/icon.svg);
+	background-position: -252px -36px;
+	background-repeat: no-repeat;
+}
+/*custom active icons */
+.ui-btn.ui-btn-active.ui-icon-360:after {
+	background-image: url(icons/icon.svg);
+	background-position: 0px 0px !important;
+	background-repeat: no-repeat;
+}
+.ui-btn.ui-btn-active.ui-icon-kit:after {
+	background-image: url(icons/icon.svg);
+	background-position: -216px 0px;
+	background-repeat: no-repeat;
+}
+.ui-btn.ui-btn-active.ui-icon-usb:after {
+	background-image: url(icons/icon.svg);
+	background-position: -72px 0px;
+	background-repeat: no-repeat;
+}
+.ui-btn.ui-btn-active.ui-icon-inout:after {
+	background-image: url(icons/icon.svg);
+	background-position: -108px 0px;
+	background-repeat: no-repeat;
+}
+.ui-btn.ui-btn-active.ui-icon-button:after {
+	background-image: url(icons/icon.svg);
+	background-position: -36px 0px;
+	background-repeat: no-repeat;
+}
+.ui-btn.ui-btn-active.ui-icon-burret:after {
+	background-image: url(icons/icon.svg);
+	background-position: -144px 0px;
+	background-repeat: no-repeat;
+}
+.ui-btn.ui-btn-active.ui-icon-electrode:after {
+	background-image: url(icons/icon.svg);
+	background-position: -180px 0px;
+	background-repeat: no-repeat;
+}
+.ui-btn.ui-btn-active.ui-icon-video:after {
+	background-image: url(icons/icon.svg);
+	background-position: -252px 0px;
+	background-repeat: no-repeat;
+}
+
+/***********************************
+
+JQM CUSTOMS PANEL
+
+***********************************/
+
+
+.ui-panel {
+	overflow: hidden;
+		position:absolute;
+	top:0;
+	bottom:0;
+}
+.ui-panel-inner {
+height: 100%;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	border-left:solid thin #bfbfbf;
+	border-right:solid thin #bfbfbf;
+}
+
+/***********************************
+
+PRODUCT AND INFO GLOBALS
+
+***********************************/
+
+.info {
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+	text-align: left;
+}
+.product, #product {
+	overflow: hidden;
+	text-align: center;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-direction: normal;
+	-moz-box-direction: normal;
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-align-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.notseen {
+	display: none !important;
+}
+.child, .son {
+	display: block;
+	margin: auto;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+
+
+/* PORTRAIT */
+@media screen and (orientation: portrait) {
+	/* Portrait styles */
+	.product, #product, .list {
+		height: 65%;
+		width: 100%;
+		margin: auto;
+	}
+	.info {
+		height: 35%;
+		width: 90%;
+		margin: auto;
+		display: -webkit-box;
+		/* OLD - iOS 6-, Safari 3.1-6 */
+		display: -moz-box;
+		/* OLD - Firefox 19- (buggy but mostly works) */
+		display: -ms-flexbox;
+		/* TWEENER - IE 10 */
+		display: -webkit-flex;
+		/* NEW - Chrome */
+		display: flex;
+		/* NEW, Spec - Opera 12.1, Firefox 20+ */
+		-webkit-box-align: center;
+		-moz-box-align: center;
+		/* OLD… */
+		-ms-flex-align: center;
+		/* You know the drill now… */
+		-webkit-align-items: center;
+		align-items: center;
+		-webkit-box-pack: center;
+		-moz-box-pack: center;
+		-ms-flex-pack: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-box-orient: vertical;
+		-webkit-flex-direction: column;
+		ms-flex-direction: column;
+		-webkit-flex-direction: column;
+		-webkit-box-direction: normal;
+		-moz-box-orient: vertical;
+		-moz-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+}
+
+/* Landscape */
+@media screen and (orientation: landscape) {
+	/* Landscape styles */
+	.ui-content, .swiper-slide {
+		display: -webkit-box;
+		/* OLD - iOS 6-, Safari 3.1-6 */
+		display: -moz-box;
+		/* OLD - Firefox 19- (buggy but mostly works) */
+		display: -ms-flexbox;
+		/* TWEENER - IE 10 */
+		display: -webkit-flex;
+		/* NEW - Chrome */
+		display: flex;
+		/* NEW, Spec - Opera 12.1, Firefox 20+ */
+		-webkit-box-align: center;
+		-moz-box-align: center;
+		/* OLD… */
+		-ms-flex-align: center;
+		/* You know the drill now… */
+		-webkit-align-items: center;
+		align-items: center;
+		-webkit-box-pack: center;
+		-moz-box-pack: center;
+		-ms-flex-pack: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-box-orient: horizontal;
+		-webkit-flex-direction: row;
+		ms-flex-direction: row;
+		-webkit-flex-direction: row;
+		-webkit-box-direction: normal;
+		-moz-box-orient: horizontal;
+		-moz-box-direction: normal;
+		-ms-flex-direction: row;
+	}
+	
+		.product,
+	#product {
+		width: 55%;
+		height: 100%;
+			opacity: 0;
+	filter: alpha(opacity=0);
+	}
+	.list {
+		height: 95%;
+		margin-right: 10px;
+		width: 100%;
+	}
+	.info {
+		display: -webkit-box;
+		/* OLD - iOS 6-, Safari 3.1-6 */
+		display: -moz-box;
+		/* OLD - Firefox 19- (buggy but mostly works) */
+		display: -ms-flexbox;
+		/* TWEENER - IE 10 */
+		display: -webkit-flex;
+		/* NEW - Chrome */
+		display: flex;
+		/* NEW, Spec - Opera 12.1, Firefox 20+ */
+		-webkit-box-pack: center;
+		-moz-box-pack: center;
+		-ms-flex-pack: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-box-orient: vertical;
+		-webkit-flex-direction: column;
+		ms-flex-direction: column;
+		-webkit-flex-direction: column;
+		-webkit-box-direction: normal;
+		-moz-box-orient: vertical;
+		-moz-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		width: 40%;
+		height: 100%;
+	}
+}
+
+
+/***********************************
+
+SWIPERS
+
+***********************************/
+/* Swipe 2 required styles */
+.swiper-container, .swiper-wrapper, .swiper-slide {
+	width: 100%;
+	height: 100%;
+	overflow-y:hidden;
+	-webkit-backface-visibility: hidden;
+}
+
+
+/* ===============================================================
+Basic Swiper Styles 
+================================================================*/
+
+.swiper-container {
+	height: 100%;
+	margin: 0px auto;
+	position: relative;
+	overflow: hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+	/* Fix of Webkit flickering */
+	z-index: 1;
+}
+.swiper-wrapper {
+	position: relative;
+	width: 100%;
+	-webkit-transition-property: -webkit-transform, left, top;
+	-webkit-transition-duration: 0s;
+	-webkit-transform: translate3d(0px, 0, 0);
+	-webkit-transition-timing-function: ease;
+	-moz-transition-property: -moz-transform, left, top;
+	-moz-transition-duration: 0s;
+	-moz-transform: translate3d(0px, 0, 0);
+	-moz-transition-timing-function: ease;
+	-o-transition-property: -o-transform, left, top;
+	-o-transition-duration: 0s;
+	-o-transform: translate3d(0px, 0, 0);
+	-o-transition-timing-function: ease;
+	-o-transform: translate(0px, 0px);
+	-ms-transition-property: -ms-transform, left, top;
+	-ms-transition-duration: 0s;
+	-ms-transform: translate3d(0px, 0, 0);
+	-ms-transition-timing-function: ease;
+	transition-property: transform, left, top;
+	transition-duration: 0s;
+	transform: translate3d(0px, 0, 0);
+	transition-timing-function: ease;
+}
+.swiper-free-mode > .swiper-wrapper {
+	-webkit-transition-timing-function: ease-out;
+	-moz-transition-timing-function: ease-out;
+	-ms-transition-timing-function: ease-out;
+	-o-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	margin: 0 auto;
+}
+.swiper-slide {
+	float: left;
+}
+/* IE10 Windows Phone 8 Fixes */
+
+.swiper-wp8-horizontal {
+	-ms-touch-action: pan-y;
+}
+.swiper-wp8-vertical {
+	-ms-touch-action: pan-x;
+}
+
+/* ===============================================================
+Pagination Styles
+================================================================*/
+
+.pagination {
+	-webkit-backface-visibility: hidden;
+	border: none;
+	position: absolute;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	top: -17px !important;
+	z-index: 20000
+}
+.swiper-pagination-switch {
+	display: inline-block;
+	width: .5em;
+	height: .5em;
+	border-radius: 100%;
+	background: rgba(65, 65, 65, 0.3);
+	margin: 0 3px;
+	cursor: pointer;
+}
+.swiper-active-switch {
+	background: #fff;
+}

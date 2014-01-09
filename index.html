@@ -1,0 +1,277 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<title>Hanna Instruments</title>
+
+	<!-- **********************************Loading all <JQM>********************************** -->
+	<link rel="stylesheet" href="lib/customtheme.css" />
+	<link rel="stylesheet" href="lib/jquery.mobile.icons-1.4.0.css" />
+	<link rel="stylesheet" href="lib/jquery.mobile.structure-1.4.0.css" />
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="lib/jquery.mobile-1.4.0.js"></script>
+
+
+	<!-- *******************************Custom CSS****************************** -->
+
+	<link rel="stylesheet" href="css/global.css" />
+
+</head>
+
+<body>
+
+
+	<div data-role="page" id="a">
+
+
+		<div data-role="header" data-position="fixed">
+			<h1>Hanna Instruments</h1>
+		</div>
+
+
+		<div role="main" class="ui-content has-header has-footer">
+			page 2
+		</div>
+		<!-- /content -->
+
+
+		<div data-role="footer" data-position="fixed">
+
+			<div data-role="navbar">
+				<ul>
+					<li class="nav">
+						<a href="#home" data-icon="360" data-transition="none">360&deg;</a>
+					</li>
+					<li class="nav">
+						<a class="ui-btn-active ui-state-persist" data-icon="burret" data-transition="none">Features</a>
+					</li>
+					<li class="nav">
+						<a data-icon="usb" data-transition="none">Data</a>
+					</li>
+					<li class="nav">
+						<a data-icon="button" data-transition="none">Nav</a>
+					</li>
+					<li class="nav">
+						<a data-icon="inout" data-transition="none">I/O</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+	<div data-role="page" id="home">
+
+		<div data-role="header" data-position="fixed">
+			<h1>Hanna Instruments</h1>
+			<a href="#panel"></a>
+		</div>
+
+
+		<div role="main" class="ui-content has-header  reset">
+			<br>
+			<img src="img/logo.svg" width="80%" style="max-width:400px;">
+
+			<ul data-role="listview" data-inset="true" style="width:90%; margin:auto;">
+				<li>
+					<a data-transition="slidefade" href="checkers/checkers.html">
+						<img src="img/904_thumb.png" width="100px">
+						<h4>Checker HC</h4>
+						<p>Handheld Colorimeters</p>
+					</a>
+				</li>
+
+
+				<li>
+					<a href="904/904.html">
+						<img src="img/904_thumb.png" width="100px">
+						<h4>HI904</h4>
+						<p>Karl Fischer Coulometric Titrator</p>
+					</a>
+				</li>
+
+				<li>
+					<a href="edge/edge.html">
+						<img src="img/edge_thumb.png" width="100px">
+						<h4>edge</h4>
+						<p>pH • EC • DO Laboratory Meter</p>
+					</a>
+				</li>
+
+
+				<li>
+					<a href="9829/9829.html">
+						<img src="img/9829_thumb.png" width="100px">
+						<h4>HI9829</h4>
+						<p>Multiparameter Meter with GPS</p>
+					</a>
+				</li>
+
+				<li>
+					<a href="902/902.html">
+						<img src="img/902_thumb.png" width="100px">
+						<h4>HI902C</h4>
+						<p>Automatic Titration System</p>
+					</a>
+				</li>
+
+				<li>
+					<a href="903/903.html">
+						<img src="img/903_thumb.png" width="100px">
+						<h4>HI903</h4>
+						<p>Karl Fischer Volumetric Titrator</p>
+					</a>
+				</li>
+
+				<li>
+					<a href="98703/98703.html">
+						<img src="img/98703_thumb.png" width="100px">
+						<h4>HI98703</h4>
+						<p>Portable Turbidity Meter</p>
+					</a>
+				</li>
+
+				<li>
+					<a href="4522/4522.html">
+						<img src="img/4522_thumb.png" width="100px">
+						<h4>HI4522</h4>
+						<p>Research Grade Meter</p>
+					</a>
+				</li>
+
+				<li>
+					<a href="84530/84530.html">
+						<img src="img/84530_thumb.png" width="100px">
+						<h4>HI84530</h4>
+						<p>Total Acidity Minititrator &amp; pH Meter</p>
+					</a>
+				</li>
+
+
+
+			</ul>
+		</div>
+		<!-- /content -->
+
+		<!--<div data-role="footer" data-position="fixed">
+
+			<div data-role="navbar">
+				<ul>
+					<li class="nav">
+						<a class="nav ui-btn-active ui-state-persist" data-icon="360" data-transition="none">360&deg;</a>
+					</li>
+					<li class="nav">
+						<a href="page2.html" data-icon="burret" data-transition="none">Features</a>
+					</li>
+					<li class="nav">
+						<a data-icon="usb" data-transition="none">Data</a>
+					</li>
+					<li class="nav">
+						<a data-icon="button" data-transition="none">Nav</a>
+					</li>
+					<li class="nav">
+						<a data-icon="inout" data-transition="none">I/O</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>-->
+	</div>
+	<!--End Main Page-->
+
+
+
+	<div data-role="panel" id="panel" data-display="push" data-theme="a">
+
+		<ul data-role="listview" data-theme="a">
+
+			<li>
+				<a data-transition="slidefade" data-direction="reverse" href="index.html">
+					<img src="img/icon.png" width="100">
+					<h4>Home</h4>
+					<p>Main Menu</p>
+				</a>
+			</li>
+
+			<li>
+				<a data-transition="slidefade" data-direction="reverse" href="904/904.html">
+					<img src="img/904_thumb.png" width="100">
+					<h4>HI904</h4>
+					<p>Karl Fischer Coulometric Titrator</p>
+				</a>
+			</li>
+
+			<li>
+				<a data-transition="slidefade" data-direction="reverse" href="edge/edge.html">
+					<img src="img/edge_thumb.png" width="100px">
+					<h4>edge</h4>
+					<p>pH • EC • DO Laboratory Meter</p>
+				</a>
+			</li>
+
+
+			<li>
+				<a data-transition="slidefade" data-direction="reverse" href="9829/9829.html">
+					<img src="img/9829_thumb.png" width="100">
+					<h4>HI9829</h4>
+					<p>Multiparameter Meter with GPS</p>
+				</a>
+			</li>
+
+			<li>
+				<a data-transition="slidefade" href="902/902.html">
+					<img src="img/902_thumb.png" width="100">
+					<h4>HI902</h4>
+					<p>Automatic Titration System</p>
+				</a>
+			</li>
+
+			<li>
+				<a data-transition="slidefade" href="903/903.html">
+					<img src="img/903_thumb.png" width="100">
+					<h4>HI903</h4>
+					<p>Karl Fischer Volumetric Titrator</p>
+				</a>
+			</li>
+
+			<li>
+				<a data-transition="slidefade" href="../98703/98703.html">
+					<img src="img/98703_thumb.png" width="100">
+					<h4>HI98703</h4>
+					<p>Portable Turbidity Meter</p>
+				</a>
+			</li>
+
+			<li>
+				<a data-transition="slidefade" href="../4522/4522.html">
+					<img src="img/4522_thumb.png" width="100">
+					<h4>HI4522</h4>
+					<p>Research Grade Meter</p>
+				</a>
+			</li>
+
+			<li>
+				<a data-transition="slidefade" href="84530/84530.html">
+					<img src="img/84530_thumb.png" width="100">
+					<h4>HI84530</h4>
+					<p>Total Acidity Minititrator &amp; pH Meter</p>
+				</a>
+			</li>
+			<br>
+		</ul>
+	</div>
+
+	<script src="js/fastclick.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/360.js"></script>
+	<script src="js/swiper.js"></script>
+
+</body>
+
+</html>
