@@ -235,7 +235,7 @@ html body .ui-group-theme-a .ui-bar-inherit {
 .ui-overlay-a,
 .ui-page-theme-a,
 .ui-page-theme-a .ui-panel-wrapper {
-	background: #f7f7f7 /*{a-page-background-color}*/;
+	background: #/* f7f7f7 */ /*{a-page-background-color}*/;
 	border-color: #f7f7f7 /*{a-page-border}*/;
 	color: #333333 /*{a-page-color}*/;
 

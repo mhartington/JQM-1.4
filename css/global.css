@@ -14,29 +14,25 @@ JQM CONTENT CUSTOMS
 ***********************************/
 
 .ui-content {
+	position: absolute;
 	top: 0px;
 	bottom: 0px;
 	width: 100%;
-	position:absolute;
 	padding: 0px !important;
-	overflow-y:scroll;
+	overflow-y: scroll;
 	-webkit-overflow-scrolling: touch;
-	 -webkit-transform: translateZ(0px);
-
+	-webkit-transform: translateZ(0px);
 }
 .has-header {
 	margin-top: 44px;
 }
-
-.has-footer{
-	margin-bottom:53px;
+.has-footer {
+	margin-bottom: 53px;
 }
-
-.reset{
-	display:block !important;
-	text-align:center;
+.reset {
+	display: block !important;
+	text-align: center;
 }
-
 /*END CONTENT STYLES*/
 
 /***********************************/
@@ -155,7 +151,6 @@ JQM CUSTOMS ICONS
 	background-position: -252px 0px;
 	background-repeat: no-repeat;
 }
-
 /***********************************
 
 JQM CUSTOMS PANEL
@@ -165,18 +160,17 @@ JQM CUSTOMS PANEL
 
 .ui-panel {
 	overflow: hidden;
-		position:absolute;
-	top:0;
-	bottom:0;
+	position: absolute;
+	top: 0;
+	bottom: 0;
 }
 .ui-panel-inner {
-height: 100%;
+	height: 100%;
 	overflow-y: scroll;
 	-webkit-overflow-scrolling: touch;
-	border-left:solid thin #bfbfbf;
-	border-right:solid thin #bfbfbf;
+	border-left: solid thin #bfbfbf;
+	border-right: solid thin #bfbfbf;
 }
-
 /***********************************
 
 PRODUCT AND INFO GLOBALS
@@ -220,7 +214,6 @@ PRODUCT AND INFO GLOBALS
 	-ms-flex-align: center;
 	align-items: center;
 }
-
 .notseen {
 	display: none !important;
 }
@@ -235,129 +228,125 @@ PRODUCT AND INFO GLOBALS
 
 /* PORTRAIT */
 @media screen and (orientation: portrait) {
-	/* Portrait styles */
-	.product, #product, .list {
-		height: 65%;
-		width: 100%;
-		margin: auto;
-	}
-	.info {
-		height: 35%;
-		width: 90%;
-		margin: auto;
-		display: -webkit-box;
-		/* OLD - iOS 6-, Safari 3.1-6 */
-		display: -moz-box;
-		/* OLD - Firefox 19- (buggy but mostly works) */
-		display: -ms-flexbox;
-		/* TWEENER - IE 10 */
-		display: -webkit-flex;
-		/* NEW - Chrome */
-		display: flex;
-		/* NEW, Spec - Opera 12.1, Firefox 20+ */
-		-webkit-box-align: center;
-		-moz-box-align: center;
-		/* OLD… */
-		-ms-flex-align: center;
-		/* You know the drill now… */
-		-webkit-align-items: center;
-		align-items: center;
-		-webkit-box-pack: center;
-		-moz-box-pack: center;
-		-ms-flex-pack: center;
-		-webkit-justify-content: center;
-		justify-content: center;
-		-webkit-box-orient: vertical;
-		-webkit-flex-direction: column;
-		ms-flex-direction: column;
-		-webkit-flex-direction: column;
-		-webkit-box-direction: normal;
-		-moz-box-orient: vertical;
-		-moz-box-direction: normal;
-		-ms-flex-direction: column;
-		flex-direction: column;
-	}
+/* Portrait styles */
+.product, #product, .list {
+	height: 65%;
+	width: 100%;
+	margin: auto;
+}
+.info {
+	height: 35%;
+	width: 90%;
+	margin: auto;
+	display: -webkit-box;
+	/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;
+	/* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;
+	/* TWEENER - IE 10 */
+	display: -webkit-flex;
+	/* NEW - Chrome */
+	display: flex;
+	/* NEW, Spec - Opera 12.1, Firefox 20+ */
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	/* OLD… */
+	-ms-flex-align: center;
+	/* You know the drill now… */
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-flex-direction: column;
+	ms-flex-direction: column;
+	-webkit-flex-direction: column;
+	-webkit-box-direction: normal;
+	-moz-box-orient: vertical;
+	-moz-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
 }
 
 /* Landscape */
 @media screen and (orientation: landscape) {
-	/* Landscape styles */
-	.ui-content, .swiper-slide {
-		display: -webkit-box;
-		/* OLD - iOS 6-, Safari 3.1-6 */
-		display: -moz-box;
-		/* OLD - Firefox 19- (buggy but mostly works) */
-		display: -ms-flexbox;
-		/* TWEENER - IE 10 */
-		display: -webkit-flex;
-		/* NEW - Chrome */
-		display: flex;
-		/* NEW, Spec - Opera 12.1, Firefox 20+ */
-		-webkit-box-align: center;
-		-moz-box-align: center;
-		/* OLD… */
-		-ms-flex-align: center;
-		/* You know the drill now… */
-		-webkit-align-items: center;
-		align-items: center;
-		-webkit-box-pack: center;
-		-moz-box-pack: center;
-		-ms-flex-pack: center;
-		-webkit-justify-content: center;
-		justify-content: center;
-		-webkit-box-orient: horizontal;
-		-webkit-flex-direction: row;
-		ms-flex-direction: row;
-		-webkit-flex-direction: row;
-		-webkit-box-direction: normal;
-		-moz-box-orient: horizontal;
-		-moz-box-direction: normal;
-		-ms-flex-direction: row;
-	}
-	
-		.product,
-	#product {
-		width: 55%;
-		height: 100%;
-			opacity: 0;
-	filter: alpha(opacity=0);
-	}
-	.list {
-		height: 95%;
-		margin-right: 10px;
-		width: 100%;
-	}
-	.info {
-		display: -webkit-box;
-		/* OLD - iOS 6-, Safari 3.1-6 */
-		display: -moz-box;
-		/* OLD - Firefox 19- (buggy but mostly works) */
-		display: -ms-flexbox;
-		/* TWEENER - IE 10 */
-		display: -webkit-flex;
-		/* NEW - Chrome */
-		display: flex;
-		/* NEW, Spec - Opera 12.1, Firefox 20+ */
-		-webkit-box-pack: center;
-		-moz-box-pack: center;
-		-ms-flex-pack: center;
-		-webkit-justify-content: center;
-		justify-content: center;
-		-webkit-box-orient: vertical;
-		-webkit-flex-direction: column;
-		ms-flex-direction: column;
-		-webkit-flex-direction: column;
-		-webkit-box-direction: normal;
-		-moz-box-orient: vertical;
-		-moz-box-direction: normal;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		width: 40%;
-		height: 100%;
-	}
+/* Landscape styles */
+.ui-content, .swiper-slide {
+	display: -webkit-box;
+	/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;
+	/* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;
+	/* TWEENER - IE 10 */
+	display: -webkit-flex;
+	/* NEW - Chrome */
+	display: flex;
+	/* NEW, Spec - Opera 12.1, Firefox 20+ */
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	/* OLD… */
+	-ms-flex-align: center;
+	/* You know the drill now… */
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-direction: row;
+	ms-flex-direction: row;
+	-webkit-flex-direction: row;
+	-webkit-box-direction: normal;
+	-moz-box-orient: horizontal;
+	-moz-box-direction: normal;
+	-ms-flex-direction: row;
 }
-
-
+.product, #product {
+	width: 55%;
+	height: 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.list {
+	height: 95%;
+	margin-right: 10px;
+	width: 100%;
+}
+.info {
+	display: -webkit-box;
+	/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;
+	/* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;
+	/* TWEENER - IE 10 */
+	display: -webkit-flex;
+	/* NEW - Chrome */
+	display: flex;
+	/* NEW, Spec - Opera 12.1, Firefox 20+ */
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-flex-direction: column;
+	ms-flex-direction: column;
+	-webkit-flex-direction: column;
+	-webkit-box-direction: normal;
+	-moz-box-orient: vertical;
+	-moz-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	width: 40%;
+	height: 100%;
+}
+}
 /***********************************
 
 SWIPERS
@@ -367,17 +356,15 @@ SWIPERS
 .swiper-container, .swiper-wrapper, .swiper-slide {
 	width: 100%;
 	height: 100%;
-	overflow-y:hidden;
+	overflow-y: hidden;
 	-webkit-backface-visibility: hidden;
 }
-
-
 /* ===============================================================
 Basic Swiper Styles 
 ================================================================*/
 
 .swiper-container {
-	height: 100%;
+	height: 100% !important;
 	margin: 0px auto;
 	position: relative;
 	overflow: hidden;
@@ -433,7 +420,6 @@ Basic Swiper Styles
 .swiper-wp8-vertical {
 	-ms-touch-action: pan-x;
 }
-
 /* ===============================================================
 Pagination Styles
 ================================================================*/

@@ -20,6 +20,7 @@ $(function () {
 
 $(function () {
 	$("[data-role=panel]").panel().enhanceWithin();
+	
 });
 
 
@@ -48,10 +49,10 @@ $('.panelOpen').on('click', function(){
 
 
 
-$(document).on('pageshow', '#a1', function () {
+$(document).on('pageshow', '#a','#a1',  function () {
 	var mySwiper;
-	mySwiper = new Swiper('.swiper902', {
-		pagination: '.pagination902',
+	mySwiper = new Swiper('.swiper', {
+		pagination: '.pagination',
 		paginationClickable: true,
 
 	});
@@ -69,3 +70,6 @@ $(document).on('pageshow', '#a1', function () {
 
 
 });
+
+
+
